@@ -7,25 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98AA19E61F678D5C005F99EB /* MMZCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AA19E51F678D5C005F99EB /* MMZCViewController.m */; };
 		98D0A6EA1F6774A500BDA4FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D0A6E91F6774A500BDA4FA /* main.m */; };
 		98D0A6ED1F6774A500BDA4FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D0A6EC1F6774A500BDA4FA /* AppDelegate.m */; };
-		98D0A6F01F6774A500BDA4FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D0A6EF1F6774A500BDA4FA /* ViewController.m */; };
 		98D0A6F31F6774A500BDA4FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D0A6F11F6774A500BDA4FA /* Main.storyboard */; };
 		98D0A6F51F6774A500BDA4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D0A6F41F6774A500BDA4FA /* Assets.xcassets */; };
 		98D0A6F81F6774A500BDA4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D0A6F61F6774A500BDA4FA /* LaunchScreen.storyboard */; };
+		98D0A7011F6785C100BDA4FA /* TKPhoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D0A7001F6785C100BDA4FA /* TKPhoneTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98AA19E41F678D5C005F99EB /* MMZCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMZCViewController.h; sourceTree = "<group>"; };
+		98AA19E51F678D5C005F99EB /* MMZCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMZCViewController.m; sourceTree = "<group>"; };
 		98D0A6E51F6774A500BDA4FA /* TKPhoneformat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKPhoneformat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D0A6E91F6774A500BDA4FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98D0A6EB1F6774A500BDA4FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98D0A6EC1F6774A500BDA4FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		98D0A6EE1F6774A500BDA4FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		98D0A6EF1F6774A500BDA4FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		98D0A6F21F6774A500BDA4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98D0A6F41F6774A500BDA4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98D0A6F71F6774A500BDA4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98D0A6F91F6774A500BDA4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D0A6FF1F6785C100BDA4FA /* TKPhoneTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPhoneTextField.h; sourceTree = "<group>"; };
+		98D0A7001F6785C100BDA4FA /* TKPhoneTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKPhoneTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 			children = (
 				98D0A6EB1F6774A500BDA4FA /* AppDelegate.h */,
 				98D0A6EC1F6774A500BDA4FA /* AppDelegate.m */,
-				98D0A6EE1F6774A500BDA4FA /* ViewController.h */,
-				98D0A6EF1F6774A500BDA4FA /* ViewController.m */,
+				98D0A6FF1F6785C100BDA4FA /* TKPhoneTextField.h */,
+				98D0A7001F6785C100BDA4FA /* TKPhoneTextField.m */,
+				98AA19E41F678D5C005F99EB /* MMZCViewController.h */,
+				98AA19E51F678D5C005F99EB /* MMZCViewController.m */,
 				98D0A6F11F6774A500BDA4FA /* Main.storyboard */,
 				98D0A6F41F6774A500BDA4FA /* Assets.xcassets */,
 				98D0A6F61F6774A500BDA4FA /* LaunchScreen.storyboard */,
@@ -150,8 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98D0A6F01F6774A500BDA4FA /* ViewController.m in Sources */,
+				98AA19E61F678D5C005F99EB /* MMZCViewController.m in Sources */,
 				98D0A6ED1F6774A500BDA4FA /* AppDelegate.m in Sources */,
+				98D0A7011F6785C100BDA4FA /* TKPhoneTextField.m in Sources */,
 				98D0A6EA1F6774A500BDA4FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +319,7 @@
 				98D0A6FE1F6774A500BDA4FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
